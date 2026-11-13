@@ -1,8 +1,8 @@
 module.exports = {
-  User: require("./User"),
+  User: require("./user"),
   ArtisanProfile: require("./ArtisanProfile"),
-  Booking: require("./Booking"),
-  Payment: require("./Payment"),
+  Booking: require("./booking"),
+  Payment: require("./payment"),
   Payout: require("./Payout"),
   Review: require("./Review"),
   Dispute: require("./Dispute"),
