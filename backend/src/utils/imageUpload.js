@@ -1,4 +1,4 @@
-const cloudinary = require("../config/Cloudinary");
+const cloudinary = require("../config/cloudinary.js");
 
 // Sends an image (held in memory) to Cloudinary and returns its link and ID
 const uploadImage = (buffer, folder, options = {}) =>
