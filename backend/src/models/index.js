@@ -1,0 +1,16 @@
+module.exports = {
+  User: require("./User"),
+  ArtisanProfile: require("./ArtisanProfile"),
+  Booking: require("./Booking"),
+  Payment: require("./Payment"),
+  Payout: require("./Payout"),
+  Review: require("./Review"),
+  Dispute: require("./Dispute"),
+  Message: require("./Message"),
+  Notification: require("./Notification"),
+  Report: require("./Report"),
+  JobRole: require("./JobRole"),
+  AuditLog: require("./AuditLog"),
+  RoleRequest: require("./RoleRequest"),
+  SlotLock: require("./SlotLock"),
+};
